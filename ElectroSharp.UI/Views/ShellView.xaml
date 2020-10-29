@@ -1,0 +1,85 @@
+﻿<Window x:Class="ElectroSharp.UI.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ElectroSharp.UI.Views"
+        mc:Ignorable="d" Background="White"
+        Title="ShellView" Height="450" Width="800"
+        ResizeMode="NoResize"
+        >
+    <Grid ShowGridLines="False">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="1"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="6" Background="Gray" Margin="1.2,0,156.6,0" />
+
+        <Border  BorderBrush="DimGray" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="5" Grid.RowSpan="4" BorderThickness="3">
+            <StackPanel   Background="WhiteSmoke"/>
+        </Border>
+
+
+        <StackPanel Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="6" Grid.RowSpan="2"  Background="Silver" />
+
+
+
+
+
+        <Rectangle  Grid.Row="1" Grid.Column="2"  Grid.ColumnSpan="4" Grid.RowSpan="3" Width="500" Height="250"  Stroke="Black" StrokeThickness="2" />
+
+        <ItemsControl Grid.Row="1" Grid.Column="2"  Grid.ColumnSpan="4" x:Name="ElectronicElements" >
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Canvas/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemContainerStyle>
+                <Style TargetType="ContentPresenter">
+                    <Setter Property="Canvas.Left" Value="{Binding X}"/>
+                    <Setter Property="Canvas.Top" Value="{Binding Y}"/>
+                </Style>
+            </ItemsControl.ItemContainerStyle>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Image Source="{Binding ImagePath}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <!--ROW 1-->
+        <Button BorderBrush="Black" Grid.Row="1" Grid.Column="1" x:Name="btn_BuildCircuit" 
+                Background="Gray" FontWeight="Bold" >Buduj</Button>
+        <!--ROW 2-->
+        <Button BorderThickness="1 0 1 1" BorderBrush="Black" Grid.Row="2" Grid.Column="1" x:Name="btn_Add" 
+                Background="Gray" FontWeight="Bold">Dodaj element</Button>
+        <!--ROW 3-->
+        <Button BorderThickness="1 0 1 1" BorderBrush="Black" Grid.Row="3" Grid.Column="1" x:Name="btn_Report" 
+                Background="Gray" FontWeight="Bold">Raport</Button>
+        <!--ROW 4-->
+        <Button BorderThickness="1" BorderBrush="Black" Grid.Row="4" Grid.Column="1" x:Name="btn_DeleteLastElement"
+                Background="Gray" FontWeight="Bold" >Usuń</Button>
+
+        <TextBlock Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="4"  x:Name="CircuitInfo" />
+
+
+
+
+
+    </Grid>
+</Window>

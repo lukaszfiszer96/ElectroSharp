@@ -1,0 +1,11 @@
+C:\Users\wkret\source\repos\ElectroSharpApp\ElectroSharp.DA\bin\Debug\ElectroSharp.DA.dll
+C:\Users\wkret\source\repos\ElectroSharpApp\ElectroSharp.DA\bin\Debug\ElectroSharp.DA.pdb
+C:\Users\wkret\source\repos\ElectroSharpApp\ElectroSharp.DA\obj\Debug\ElectroSharp.DA.csprojAssemblyReference.cache
+C:\Users\wkret\source\repos\ElectroSharpApp\ElectroSharp.DA\obj\Debug\ElectroSharp.DA.dll
+C:\Users\wkret\source\repos\ElectroSharpApp\ElectroSharp.DA\obj\Debug\ElectroSharp.DA.pdb
+C:\Users\wkret\source\repos\ElectroSharpApp\ElectroSharp.DA\bin\Debug\ElectroSharp.DA.dll.config
+C:\Users\wkret\source\repos\ElectroSharpApp\ElectroSharp.DA\bin\Debug\EntityFramework.dll
+C:\Users\wkret\source\repos\ElectroSharpApp\ElectroSharp.DA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\wkret\source\repos\ElectroSharpApp\ElectroSharp.DA\bin\Debug\EntityFramework.xml
+C:\Users\wkret\source\repos\ElectroSharpApp\ElectroSharp.DA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\wkret\source\repos\ElectroSharpApp\ElectroSharp.DA\obj\Debug\ElectroSharp.DA.csproj.CopyComplete

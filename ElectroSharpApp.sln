@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectroSharp.UI", "ElectroSharp.UI\ElectroSharp.UI.csproj", "{FDEED731-8372-4AAD-A0F4-4DE02AABCA0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectroSharp.DA", "ElectroSharp.DA\ElectroSharp.DA.csproj", "{2EAAFBA6-6E58-4F99-8F0E-4DA982DA2BAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDEED731-8372-4AAD-A0F4-4DE02AABCA0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDEED731-8372-4AAD-A0F4-4DE02AABCA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDEED731-8372-4AAD-A0F4-4DE02AABCA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDEED731-8372-4AAD-A0F4-4DE02AABCA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAAFBA6-6E58-4F99-8F0E-4DA982DA2BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAAFBA6-6E58-4F99-8F0E-4DA982DA2BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAAFBA6-6E58-4F99-8F0E-4DA982DA2BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAAFBA6-6E58-4F99-8F0E-4DA982DA2BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75B6A6C2-ABB4-433B-960B-72FB86E4A19E}
+	EndGlobalSection
+EndGlobal
